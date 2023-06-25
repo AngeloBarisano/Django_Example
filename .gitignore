@@ -67,6 +67,11 @@ htmlcov/
 nosetests.xml
 coverage.xml
 
+
+bin/
+include/
+lib64/
+
 # Translations
 *.mo
 *.pot
