@@ -10,5 +10,7 @@ from . import views
 
 urlpatterns = [
     path("", views.home, name="home"),
-    path("room/", views.room, name="room"),
+    path("room/<str:pk>", views.room, name="room"), # as long as you call it name = "room", you can change all names etcd
+    path("create-room/", views.createRoom, name="create-room"),
+
 ]
