@@ -1,0 +1,34 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+    "workbench.colorTheme": "Atom One Dark Theme - Underlined",
+    "explorer.confirmDelete": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": false,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.defaultInterpreterPath": "/home/angelo/Documents/Projects/Django_Example/bin/python3",
+    "terminal.integrated.cwd": "/home/angelo/Documents/Projects/Django_Example",
+    "jupyter.notebookFileRoot": "/home/angelo/Documents/Projects/Django_Example/bin/python3",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "jupyter.askForKernelRestart": false,
+    "notebook.lineNumbers": "on",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "python.testing.cwd": "/home/angelo/Documents/Projects/Django_Example",
+    "python.linting.cwd": "/home/angelo/Documents/Projects/Django_Example",
+    "notebook.output.textLineLimit": 100,
+    "notebook.formatOnSave.enabled": true,
+    "git.openRepositoryInParentFolders": "never",
+    "notebook.confirmDeleteRunningCell": false,
+    "window.zoomLevel": -1,
+
+}

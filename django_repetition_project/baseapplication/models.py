@@ -12,9 +12,6 @@ from django.contrib.auth.models import User #default user
 class Topic(models.Model):
     name = models.CharField(max_length=200)
 
-
-
-
     def __str__(self) -> str:
         return self.name
 
@@ -32,6 +29,10 @@ class Room(models.Model):
     updated = models.DateTimeField(auto_now= True) # updates each time
     created = models.DateTimeField(auto_now_add=True) # takes a new snapshot only once
 
+
+
+    class Meta:
+        ordering = ["-updated", "-created"]
     #create a string representaion of the class
     def __str__(self):
         return self.name
